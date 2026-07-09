@@ -114,22 +114,10 @@ sentinela-autonomo-engenharia-software/
 
 ---
 
-## 🚀 Próximos Passos
+## 🚀 Observabilidade (DashBoard)
 
-### Agora
-- [ ] Ler [ONBOARDING.md](ONBOARDING.md) (10 minutos)
-- [ ] Executar testes: `pytest .saes/agents/tests/test_git_commit_e2e_scenarios.py -v -s`
-- [ ] Explorar [workspace/teste-e2e-sentinel-3-cenarios/](workspace/teste-e2e-sentinel-3-cenarios/)
+<img width="1201" height="687" alt="image" src="https://github.com/user-attachments/assets/36bb304a-356e-4bab-ae4f-2508fa378631" />
 
-### Esta Semana
-- [ ] Integrar Sentinel no seu projeto
-- [ ] Disparar uma análise
-- [ ] Revisar achados e plano
-
-### Próximas Semanas
-- [ ] Implementar P0 items (achados CRÍTICO)
-- [ ] Implementar P1 items (achados ALTO)
-- [ ] Deploy das soluções
 
 ---
 
@@ -163,9 +151,48 @@ sentinela-autonomo-engenharia-software/
    - Proponará soluções com código pronto
    - Gerará relatório gravado em `workspace/`
 
+
 ---
+
+## 🎯 Flow de Agents Sentinel
+
+<img width="921" height="712" alt="image" src="https://github.com/user-attachments/assets/b255a0a8-5f99-4616-ac8e-9252ab4741d7" />
 
 **SASS-X Sentinel v4.0** — Production-Ready ✅
 **Última atualização:** 2026-07-09
 **Status:** 🚀 Pronto para Deploy
+
+---
+
+## 👤 Autor & Engenharia
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/saulomcosta">
+        <img src="https://github.com/saulomcosta.png" width="120px;" alt="Saulo Costa Profile Picture"/><br />
+        <sub><b>Saulo M. Costa</b></sub>
+      </a>
+    </td>
+    <td>
+      <h3><b>Senior Software Engineer | AI Solutions Architect</b></h3>
+      <p>🚀 Especialista em Arquitetura de Software e na criação de Agentes de IA Autônomos.</p>
+      <p>⚙️ Desenvolvendo sistemas altamente escaláveis e resilientes utilizando TypeScript, Java, AWS e Microsserviços.</p>
+      <p>
+        <a href="https://github.com/saulomcosta" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/saulo-m-costa/" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <b>SASS-X Sentinel v4.0</b> — Production-Ready ✅ <br />
+  <b>Última atualização:</b> 2026-07-09 • Feito com ☕ e foco em Clean Architecture.
+</p>
+
 
