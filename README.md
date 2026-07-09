@@ -129,7 +129,6 @@ sentinela-autonomo-engenharia-software/
 | **[ONBOARDING.md](ONBOARDING.md)** | Novos usuários | Quick-start (10 min) |
 | **[SENTINEL.md](SENTINEL.md)** | Implementadores | Regras de execução |
 | **[glossario.py](glossario.py)** | Referência | Termos técnicos |
-| **[workspace/teste-e2e-sentinel-3-cenarios/](workspace/teste-e2e-sentinel-3-cenarios/)** | Eng/Arquitetos | 3 cenários E2E com 13 achados |
 
 ---
 
