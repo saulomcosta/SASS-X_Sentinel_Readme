@@ -1,171 +1,488 @@
-# 🛰️ SASS-X Sentinel — Sistema de Auditoria Inteligente de Software
+# 🛰️ SASS-X Sentinel
 
-> **O que é:** Platform autônoma de **análise contínua, segurança, qualidade e entrega de software** baseada em **orquestrador + multi-agentes especializados**. Detecta vulnerabilidades (OWASP, LGPD), problemas arquiteturais, bugs, padrões frágeis, dívida técnica e propõe remediações com código pronto.
-
-**SASS-X Sentinel** é um sistema inteligente que funciona com assistentes de IA agênticos (Assistente de IA, GitHub Copilot, Cursor, etc.) para **auditar automaticamente aplicações e propor melhorias baseadas em evidência**.
-
-Toda execução é **serial, hierárquica, reprocessada até concluir** e gera um **relatório carimbado** em `workspace/` (um diretório por demanda, com data/hora).
-
-> **Foco:** Sentinel é especializado em detecção inteligente + propostas de fix. Portável a qualquer assistente de IA agêntico (Cursor, GitHub Copilot, Gemini CLI, Codex, etc.).
-
-| Métrica | Valor | Status |
-|--------|-------|--------|
-| **Arquitetura** | 6 camadas | ✅ Validada (24/24 testes) |
-| **Validação E2E** | 3 cenários | ✅ Passou (6/6 testes) |
-| **Achados Detectados** | 13 | ✅ Consolidados com evidência |
-| **Soluções de Fix** | Com código | ✅ Before/After pronto |
-| **Roadmap** | 29 pontos | ✅ 5 semanas, 3 sprints |
-| **Status Produção** | Pronto | 🚀 Deployment Ready |
+# Autonomous Software Engineering Platform
 
 <p align="center">
-  <img alt="status"   src="https://img.shields.io/badge/status-production--ready-3ef2a1"/>
-  <img alt="framework" src="https://img.shields.io/badge/framework-6--layer-27e7ff"/>
-  <img alt="tests"    src="https://img.shields.io/badge/tests-24%2F24--pass-3ef2a1"/>
-  <img alt="scenarios" src="https://img.shields.io/badge/scenarios-3--E2E-ff9f43"/>
-  <img alt="findings" src="https://img.shields.io/badge/findings-13--validated-8a5bff"/>
-  <img alt="roadmap" src="https://img.shields.io/badge/roadmap-5--weeks-ff4ecd"/>
+
+**Uma plataforma de Engenharia de Software Autônoma baseada em Inteligência Artificial Multiagente capaz de compreender, auditar, proteger e evoluir aplicações corporativas continuamente.**
+
+*"Transformando conhecimento técnico em decisões inteligentes."*
+
 </p>
 
-## 🏗️ Arquitetura Sentinel — 6 Camadas
+---
 
-**Modelo de execução — Orquestrador → Agentes → Relatório:**
+# 🌎 O desafio da Engenharia de Software moderna
+
+O software evoluiu.
+
+Nas últimas décadas, saímos de aplicações simples para ecossistemas altamente distribuídos:
+
+* Microsserviços;
+* Kubernetes;
+* Cloud Computing;
+* APIs;
+* Mensageria;
+* Containers;
+* DevSecOps;
+* GitOps;
+* Observabilidade;
+* Inteligência Artificial;
+* Arquiteturas distribuídas.
+
+Essa evolução trouxe novos níveis de capacidade.
+
+Mas também trouxe um novo problema:
+
+## A complexidade ultrapassou a capacidade humana de análise manual.
+
+---
+
+Uma simples alteração em produção pode envolver:
 
 ```
-┌───────────────────────────────────────────────────────┐
-│ SASS-X Sentinel Orquestrador                          │
-│ (thread principal + seleção de agentes)               │
-└───────────────────────────────────────────────────────┘
-                        │
-        ┌───────────────┼───────────────┐
-        │               │               │
-        ▼               ▼               ▼
-   🔒 Segurança    🎨 Qualidade    📊 Observabilidade
-   ├─ OWASP Top 10 ├─ SOLID         ├─ Logging
-   ├─ LGPD         ├─ Design Pat.   ├─ APM/Tracing
-   └─ Secrets      └─ Clean Code    └─ Monitoring
-        │               │               │
-        └───────────────┼───────────────┘
-                        │
-        ┌───────────────┴───────────────┐
-        │                               │
-        ▼                               ▼
-   📋 Consolidação              ✅ Validação
-   (dedup + priorização)        (severidade + gates)
-        │                               │
-        └───────────────┬───────────────┘
-                        │
-        ┌───────────────┴───────────────┐
-        │                               │
-        ▼                               ▼
-   📊 Síntese                   👤 Human Approval
-   (chief-engineering)          (CRÍTICO sempre)
-        │                               │
-        └───────────────┬───────────────┘
-                        │
-        ┌───────────────┴───────────────┐
-        │                               │
-        ▼                               ▼
-   📁 Relatório                  🔧 Implementação
-   (achados + roadmap)           (code applier)
+Código
+
+ ↓
+
+API
+
+ ↓
+
+Microsserviços
+
+ ↓
+
+Banco de Dados
+
+ ↓
+
+Mensageria
+
+ ↓
+
+Cloud
+
+ ↓
+
+Infraestrutura
+
+ ↓
+
+Observabilidade
+
+ ↓
+
+Segurança
+
+ ↓
+
+Usuário final
 ```
 
-## 📂 Estrutura do Projeto Sentinel
+Cada equipe possui uma visão parcial.
+
+Cada ferramenta possui informações isoladas.
+
+Cada especialista possui conhecimento específico.
+
+Mas alguém precisa conectar tudo.
+
+---
+
+# ❓ As perguntas que empresas enfrentam diariamente
+
+* Minha aplicação está segura?
+* Minha arquitetura está preparada para crescer?
+* Esta alteração aumenta minha dívida técnica?
+* Existe risco de incidente?
+* Minha aplicação segue boas práticas?
+* Onde estão os maiores riscos?
+* Qual correção deve ser priorizada?
+* O que minha equipe ainda não percebeu?
+
+Hoje essas respostas dependem principalmente de especialistas humanos.
+
+Mas especialistas experientes são limitados.
+
+O software continua crescendo.
+
+---
+
+# 💡 O problema não é falta de ferramentas.
+
+# É excesso de informações desconectadas.
+
+Empresas utilizam diversas soluções:
+
+* SonarQube;
+* Snyk;
+* Semgrep;
+* Dependabot;
+* OWASP Dependency Check;
+* GitHub;
+* GitLab;
+* Azure DevOps;
+* Jira;
+* Confluence;
+* Elastic;
+* New Relic;
+* Dynatrace;
+* Ferramentas de IA.
+
+Cada ferramenta resolve uma parte.
+
+Cada ferramenta gera dados.
+
+Cada ferramenta possui seu próprio contexto.
+
+O desafio moderno não é coletar informação.
+
+É transformar informação em decisão.
+
+---
+
+# 🚀 A nova geração da Engenharia de Software
+
+Imagine possuir uma equipe digital permanente formada por especialistas que trabalham continuamente:
+
+🧠 Um arquiteto de software
+
+🔐 Um especialista em segurança
+
+⚙️ Um engenheiro DevOps
+
+📊 Um especialista em observabilidade
+
+🚀 Um especialista em performance
+
+🏗 Um especialista em arquitetura
+
+☁️ Um especialista Cloud
+
+🛡 Um especialista LGPD
+
+🧪 Um especialista em qualidade
+
+Todos analisando a aplicação.
+
+Todos compartilhando conhecimento.
+
+Todos produzindo uma visão única.
+
+---
+
+# Essa é a proposta do SASS-X Sentinel.
+
+---
+
+# 🛰️ O que é o SASS-X Sentinel?
+
+O **SASS-X Sentinel** é uma plataforma de Engenharia de Software Autônoma baseada em Inteligência Artificial Multiagente.
+
+Seu objetivo é funcionar como um **sentinela digital da engenharia**, acompanhando continuamente aplicações corporativas e identificando oportunidades de melhoria.
+
+A plataforma analisa:
+
+* Arquitetura;
+* Segurança;
+* Qualidade;
+* Código-fonte;
+* Performance;
+* Observabilidade;
+* APIs;
+* Banco de Dados;
+* Microsserviços;
+* Cloud;
+* DevOps;
+* Compliance;
+* Governança.
+
+---
+
+# Muito além de um Code Review
+
+O Sentinel não substitui ferramentas existentes.
+
+Ele conecta essas ferramentas.
+
+Ele atua como uma camada inteligente acima do ecossistema tecnológico existente.
+
+Enquanto ferramentas tradicionais respondem:
+
+> "Existe uma vulnerabilidade?"
+
+O Sentinel busca responder:
+
+> "Qual o impacto desta vulnerabilidade, por que ela existe, qual risco representa, qual prioridade possui e qual a melhor estratégia para corrigir?"
+
+---
+
+# 🧠 Como o Sentinel funciona
+
+A plataforma utiliza um modelo baseado em:
 
 ```
-sentinela-autonomo-engenharia-software/
-├─ README.md ......................... (você está aqui)
-├─ ONBOARDING.md ..................... (primeiros passos)
-├─ SENTINEL.md ......................... (regras de execução)
-├─ gatilhos.json ..................... (configuração de triggers)
-├─ glossario.py ...................... (glossário de termos)
-├─ observatorio-agentes.html ......... (dashboard)
-├─ painel-gatilhos.py ................ (GUI Tkinter)
-├─ Painel.bat ........................ (launcher Windows)
-├─ flow-agentes.html ................. (diagrama de fluxo)
-│
-├─ .saes/agents/ ..................... (framework Sentinel)
-│  ├─ 00-orquestracao/ .............. (orquestrador)
-│  ├─ core/ ......................... (framework compartilhado)
-│  └─ tests/ ........................ (validação)
-│
-├─ workspace/ ........................ (relatórios e exemplos)
-│  └─ teste-e2e-sentinel-3-cenarios/ (3 cenários validados)
-│
-├─ docs/ ............................ (documentação Sentinel)
-│  └─ README.md ..................... (índice)
-│
-└─ config/ .......................... (configurações)
-   ├─ repos.json
-   └─ endpoints.json
+Usuário
+
+   ↓
+
+Orquestrador Inteligente
+
+   ↓
+
+Especialistas Digitais
+
+   ↓
+
+Evidências Técnicas
+
+   ↓
+
+Consolidação
+
+   ↓
+
+Conhecimento
+
+   ↓
+
+Relatórios e Recomendações
 ```
 
 ---
 
-## 🎯 Validação & Status
+# 🏗 Arquitetura resumida
 
-| Aspecto | Status | Detalhes |
-|---------|--------|----------|
-| **Framework 6-camadas** | ✅ | 24/24 testes PASSED |
-| **3 Cenários E2E** | ✅ | 6/6 testes PASSED (0.15s) |
-| **13 Achados** | ✅ | Consolidados com evidência |
-| **Soluções de Fix** | ✅ | Código pronto (Before/After) |
-| **Roadmap** | ✅ | 29 pontos, 5 semanas, 3 sprints |
-| **Documentação** | ✅ | Completa e estruturada |
+```mermaid
+flowchart LR
 
----
+User["Engenheiros / Arquitetos / Times"]
 
-## 🚀 Próximos Passos
+User
 
-### Agora
-- [ ] Ler [ONBOARDING.md](ONBOARDING.md) (10 minutos)
-- [ ] Executar testes: `pytest .saes/agents/tests/test_git_commit_e2e_scenarios.py -v -s`
-- [ ] Explorar [workspace/teste-e2e-sentinel-3-cenarios/](workspace/teste-e2e-sentinel-3-cenarios/)
+--> Sentinel["SASS-X Sentinel"]
 
-### Esta Semana
-- [ ] Integrar Sentinel no seu projeto
-- [ ] Disparar uma análise
-- [ ] Revisar achados e plano
+Sentinel
 
-### Próximas Semanas
-- [ ] Implementar P0 items (achados CRÍTICO)
-- [ ] Implementar P1 items (achados ALTO)
-- [ ] Deploy das soluções
+--> Orchestrator["AI Orchestrator"]
 
----
+Orchestrator
 
-## 📚 Documentação
+--> Agents["Especialistas Digitais"]
 
-| Documento | Para Quem | Propósito |
-|-----------|-----------|----------|
-| **README.md** | Todos | Você está aqui |
-| **[ONBOARDING.md](ONBOARDING.md)** | Novos usuários | Quick-start (10 min) |
-| **[SENTINEL.md](SENTINEL.md)** | Implementadores | Regras de execução |
-| **[glossario.py](glossario.py)** | Referência | Termos técnicos |
-| **[workspace/teste-e2e-sentinel-3-cenarios/](workspace/teste-e2e-sentinel-3-cenarios/)** | Eng/Arquitetos | 3 cenários E2E com 13 achados |
+Agents
+
+--> Knowledge["Engineering Intelligence Graph"]
+
+Agents
+
+--> Workspace["Execution Workspace"]
+
+Workspace
+
+--> Reports["Relatórios Inteligentes"]
+
+Reports
+
+--> User
+```
 
 ---
 
-## 🎯 Como Usar Sentinel
+# 🤖 Sistema Multiagente
 
-**Em seu assistente de IA** (GitHub Copilot, Cursor, etc.):
+Cada agente possui uma especialidade.
 
-1. **Abra a pasta** do projeto
-2. **SENTINEL.md carrega automaticamente** com as regras do Sentinel
-3. **Descreva o que quer**:
-   - "Audita profundamente este código"
-   - "Security scan em tudo"
-   - "Relatório de qualidade"
-   - Ou qualquer demanda em linguagem natural
+Exemplos:
 
-4. **Sentinel executará**:
-   - Análise em 6 camadas (orquestrador → especialistas → consolidação)
-   - Detectará vulnerabilidades, bugs, padrões ruins
-   - Proponará soluções com código pronto
-   - Gerará relatório gravado em `workspace/`
+| Especialista        | Responsabilidade          |
+| ------------------- | ------------------------- |
+| Security Agent      | Vulnerabilidades e riscos |
+| OWASP Agent         | Segurança Web             |
+| Quality Agent       | Clean Code e qualidade    |
+| Architecture Agent  | Padrões arquiteturais     |
+| Performance Agent   | Gargalos                  |
+| Observability Agent | Logs, métricas e tracing  |
+| DevOps Agent        | Pipelines e entrega       |
+| Cloud Agent         | Boas práticas cloud       |
+| Compliance Agent    | Governança                |
+
+Os especialistas trabalham juntos através de um orquestrador inteligente.
 
 ---
 
-**SASS-X Sentinel v4.0** — Production-Ready ✅
-**Última atualização:** 2026-07-09
-**Status:** 🚀 Pronto para Deploy
+# 🧬 Diferenciais da Plataforma
 
+## Evidência antes de opinião
+
+Nenhuma recomendação existe sem evidência técnica.
+
+---
+
+## Inteligência especializada
+
+Cada agente possui uma missão clara.
+
+---
+
+## Conhecimento acumulativo
+
+O Sentinel aprende com execuções anteriores através do Engineering Knowledge Graph.
+
+---
+
+## Rastreamento completo
+
+Cada análise possui:
+
+* Contexto;
+* Evidências;
+* Decisões;
+* Checkpoints;
+* Relatórios.
+
+---
+
+## Human-in-the-loop
+
+A IA recomenda.
+
+A engenharia decide.
+
+Mudanças críticas permanecem sob aprovação humana.
+
+---
+
+# 📊 Status da Plataforma
+
+| Capacidade                 | Status          |
+| -------------------------- | --------------- |
+| Arquitetura Multiagente    | ✅ Implementada  |
+| Orquestração Inteligente   | ✅ Implementada  |
+| Framework de Especialistas | ✅ Implementado  |
+| Workspace Auditável        | ✅ Implementado  |
+| Knowledge Graph            | ✅ Implementado  |
+| Relatórios Inteligentes    | ✅ Implementado  |
+| Segurança e Governança     | ✅ Estruturado   |
+| Evolução Enterprise        | 🚀 Em andamento |
+
+---
+
+# 🎯 Para quem foi criado?
+
+O Sentinel foi desenvolvido para organizações que tratam software como ativo estratégico.
+
+Público:
+
+* CTOs;
+* Arquitetos de Software;
+* Staff Engineers;
+* Tech Leads;
+* Times DevSecOps;
+* Times SRE;
+* Desenvolvedores;
+* Empresas com ambientes complexos.
+
+---
+
+# 🌎 Casos de uso
+
+## Auditoria contínua
+
+Análise automática de aplicações.
+
+---
+
+## Modernização de sistemas legados
+
+Identificação de riscos e oportunidades.
+
+---
+
+## Segurança preventiva
+
+Detecção antecipada de vulnerabilidades.
+
+---
+
+## Governança arquitetural
+
+Garantia de padrões corporativos.
+
+---
+
+## DevSecOps inteligente
+
+Integração ao ciclo de entrega.
+
+---
+
+## Apoio à decisão técnica
+
+Transformação de dados em estratégia.
+
+---
+
+# 📚 Documentação da Plataforma
+
+A documentação foi organizada como uma visão completa do produto.
+
+| Documento                                                                 | Objetivo                    |
+| ------------------------------------------------------------------------- | --------------------------- |
+| [01-vision.md](docs/01-vision.md)                                         | Visão estratégica           |
+| [02-business-problem.md](docs/02-business-problem.md)                     | Problema de negócio         |
+| [03-how-it-works.md](docs/03-how-it-works.md)                             | Funcionamento               |
+| [04-architecture.md](docs/04-architecture.md)                             | Arquitetura                 |
+| [05-multi-agent-system.md](docs/05-multi-agent-system.md)                 | Sistema multiagente         |
+| [06-engineering-knowledge-flow.md](docs/06-engineering-knowledge-flow.md) | Fluxo de conhecimento       |
+| [07-execution-flow.md](docs/07-execution-flow.md)                         | Fluxo operacional           |
+| [08-security.md](docs/08-security.md)                                     | Segurança                   |
+| [09-observability.md](docs/09-observability.md)                           | Observabilidade             |
+| [10-integrations.md](docs/10-integrations.md)                             | Integrações                 |
+| [11-enterprise.md](docs/11-enterprise.md)                                 | Arquitetura enterprise      |
+| [12-use-cases.md](docs/12-use-cases.md)                                   | Casos de uso                |
+| [13-token-optimization.md](docs/13-token-optimization.md)                 | Eficiência de IA            |
+| [14-roadmap.md](docs/14-roadmap.md)                                       | Evolução futura             |
+| [15-faq.md](docs/15-faq.md)                                               | Perguntas frequentes        |
+| [16-runtime-architecture.md](docs/16-runtime-architecture.md)             | Motor de execução           |
+| [17-knowledge-graph.md](docs/17-knowledge-graph.md)                       | Memória organizacional      |
+| [18-workspace.md](docs/18-workspace.md)                                   | Auditoria e rastreabilidade |
+| [19-agent-framework.md](docs/19-agent-framework.md)                       | Framework de especialistas  |
+
+---
+
+# 🤝 Construindo o futuro da Engenharia
+
+O SASS-X Sentinel representa uma nova visão:
+
+Software não deve ser apenas desenvolvido.
+
+Ele deve ser compreendido.
+
+Monitorado.
+
+Protegido.
+
+Evoluído.
+
+---
+
+A próxima geração da engenharia será construída pela colaboração entre:
+
+**Conhecimento humano + Inteligência Artificial + Automação inteligente**
+
+---
+
+# 🛰️ SASS-X Sentinel
+
+## O sentinela digital que acompanha a evolução do software.
+
+*"O código muda todos os dias.
+O conhecimento precisa evoluir junto."*
+
+---
+
+**Versão:** 4.0
+**Categoria:** Engineering Intelligence Platform
+**Status:** Em evolução contínua 🚀
