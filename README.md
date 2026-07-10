@@ -1,452 +1,1114 @@
+<p align="center">
+    <img src="media/logo.png" width="180">
+</p>
+
 # 🛰️ SASS-X Sentinel
 
-# Autonomous Software Engineering Platform
+## Autonomous Software Engineering Platform
 
 <p align="center">
 
-**Uma plataforma de Engenharia de Software Autônoma baseada em Inteligência Artificial Multiagente capaz de compreender, auditar, proteger e evoluir aplicações corporativas continuamente.**
+**Uma plataforma de Engenharia de Software Autônoma baseada em Inteligência Artificial Multiagente capaz de compreender, auditar, proteger, evoluir e apoiar decisões técnicas durante todo o ciclo de vida de aplicações corporativas.**
 
 *"Transformando conhecimento técnico em decisões inteligentes."*
 
 </p>
 
----
-
-# 🌎 O desafio da Engenharia de Software moderna
-
-O software evoluiu.
-
-Nas últimas décadas, saímos de aplicações simples para ecossistemas altamente distribuídos:
-
-* Microsserviços;
-* Kubernetes;
-* Cloud Computing;
-* APIs;
-* Mensageria;
-* Containers;
-* DevSecOps;
-* GitOps;
-* Observabilidade;
-* Inteligência Artificial;
-* Arquiteturas distribuídas.
-
-Essa evolução trouxe novos níveis de capacidade.
-
-Mas também trouxe um novo problema:
-
-## A complexidade ultrapassou a capacidade humana de análise manual.
+<p align="center">
+    <img src="media/banner.png">
+</p>
 
 ---
 
-Uma simples alteração em produção pode envolver:
+# 🌎 O software mudou. A Engenharia também.
 
-```
-        Código
-          ↓
-        API
-          ↓
-        Microsserviços
-          ↓
-        Banco de Dados
-          ↓
-        Mensageria
-          ↓
-        Cloud
-          ↓
+A Engenharia de Software vive uma das maiores transformações de sua história.
+
+Nas últimas décadas deixamos de construir aplicações monolíticas simples para operar ecossistemas altamente distribuídos compostos por centenas de componentes, serviços e integrações.
+
+Hoje uma única aplicação pode envolver simultaneamente:
+
+- Microsserviços
+- Kubernetes
+- Containers
+- APIs REST e eventos
+- Mensageria
+- Banco de Dados
+- Cloud Computing
+- DevSecOps
+- GitOps
+- Observabilidade
+- Inteligência Artificial
+- Infraestrutura como Código
+- Compliance
+- Governança
+
+Cada nova tecnologia resolveu um problema.
+
+Mas também aumentou exponencialmente a complexidade da Engenharia.
+
+O resultado é um cenário onde compreender completamente uma aplicação tornou-se praticamente impossível para uma única pessoa.
+
+---
+
+# O verdadeiro desafio
+
+Uma simples alteração em produção pode atravessar dezenas de componentes antes de chegar ao usuário.
+
+```text
+             Código
+                │
+                ▼
+              APIs
+                │
+                ▼
+         Microsserviços
+                │
+                ▼
+         Banco de Dados
+                │
+                ▼
+          Mensageria
+                │
+                ▼
+              Cloud
+                │
+                ▼
         Infraestrutura
-          ↓
+                │
+                ▼
         Observabilidade
-          ↓
-        Segurança
-          ↓
-        Usuário final
+                │
+                ▼
+          Segurança
+                │
+                ▼
+         Usuário Final
 ```
 
-* Cada equipe possui uma visão parcial.
-* Cada ferramenta possui informações isoladas.
-* Cada especialista possui conhecimento específico.
-* Mas alguém precisa conectar tudo.
+Nesse cenário surgem alguns desafios inevitáveis.
+
+Cada equipe possui apenas parte do conhecimento.
+
+Cada ferramenta apresenta apenas parte das informações.
+
+Cada especialista domina apenas uma área da engenharia.
+
+Mas as decisões precisam considerar o sistema como um todo.
 
 ---
 
-# ❓ As perguntas que empresas enfrentam diariamente
+# ❓ As perguntas que toda organização precisa responder
 
-* Minha aplicação está segura?
-* Minha arquitetura está preparada para crescer?
-* Esta alteração aumenta minha dívida técnica?
-* Existe risco de incidente?
-* Minha aplicação segue boas práticas?
-* Onde estão os maiores riscos?
-* Qual correção deve ser priorizada?
-* O que minha equipe ainda não percebeu?
+Todos os dias equipes de Engenharia enfrentam perguntas como:
 
-Hoje essas respostas dependem principalmente de especialistas humanos.
+- Esta aplicação realmente está segura?
+- Nossa arquitetura suporta o crescimento esperado?
+- Esta Pull Request aumenta a dívida técnica?
+- Existe risco operacional escondido?
+- Estamos seguindo boas práticas arquiteturais?
+- Quais componentes representam maior risco?
+- O que devemos corrigir primeiro?
+- Qual decisão trará maior retorno técnico?
+- Existe algum problema que ainda ninguém percebeu?
 
-Mas especialistas experientes são limitados.
+Responder essas perguntas exige experiência.
 
-O software continua crescendo.
+Muita experiência.
 
----
+E normalmente depende de Arquitetos de Software, Staff Engineers, Tech Leads, especialistas DevSecOps, SREs e profissionais extremamente experientes.
 
-# 💡 O problema não é falta de ferramentas.
+O problema é que conhecimento especializado continua sendo um recurso escasso.
 
-# É excesso de informações desconectadas.
-
-Empresas utilizam diversas soluções:
-
-* SonarQube;
-* Snyk;
-* Semgrep;
-* Dependabot;
-* OWASP Dependency Check;
-* GitHub;
-* GitLab;
-* Azure DevOps;
-* Jira;
-* Confluence;
-* Elastic;
-* New Relic;
-* Dynatrace;
-* Ferramentas de IA.
-
-Cada ferramenta resolve uma parte.
-
-Cada ferramenta gera dados.
-
-Cada ferramenta possui seu próprio contexto.
-
-O desafio moderno não é coletar informação.
-
-É transformar informação em decisão.
+Enquanto isso, os sistemas continuam crescendo.
 
 ---
 
-# 🚀 A nova geração da Engenharia de Software
+# O problema não é falta de ferramentas.
 
-Imagine possuir uma equipe digital permanente formada por especialistas que trabalham continuamente:
+## O problema é excesso de informações desconectadas.
 
-🧠 Um arquiteto de software
+Empresas modernas utilizam diariamente dezenas de plataformas especializadas.
 
-🔐 Um especialista em segurança
+- GitHub
+- GitLab
+- Azure DevOps
+- Jira
+- Confluence
+- SonarQube
+- Semgrep
+- Snyk
+- OWASP Dependency Check
+- Elastic
+- New Relic
+- Dynatrace
+- Kubernetes
+- AWS
+- Azure
+- IDEs com Inteligência Artificial
 
-⚙️ Um engenheiro DevOps
+Cada ferramenta resolve um problema específico.
 
-📊 Um especialista em observabilidade
+Cada ferramenta produz milhares de dados.
 
-🚀 Um especialista em performance
+Cada ferramenta utiliza métricas próprias.
 
-🏗 Um especialista em arquitetura
+Cada ferramenta fala sua própria linguagem.
 
-☁️ Um especialista Cloud
+No final do dia alguém precisa reunir todas essas informações.
 
-🛡 Um especialista LGPD
+Interpretar.
 
-🧪 Um especialista em qualidade
+Correlacionar.
 
-Todos analisando a aplicação.
+Priorizar.
 
-Todos compartilhando conhecimento.
+Transformar dados em decisões.
 
-Todos produzindo uma visão única.
+Esse trabalho ainda é predominantemente manual.
 
 ---
 
-# Essa é a proposta do SASS-X Sentinel.
+# Imagine uma equipe de especialistas trabalhando continuamente.
+
+Agora imagine possuir uma equipe formada pelos melhores especialistas da Engenharia de Software trabalhando vinte e quatro horas por dia.
+
+Sem interrupções.
+
+Sem perda de contexto.
+
+Compartilhando conhecimento continuamente.
+
+Imagine ter permanentemente disponível:
+
+🧠 Um Arquiteto de Software
+
+🔐 Um Especialista em Segurança
+
+⚙️ Um Engenheiro DevOps
+
+📊 Um Especialista em Observabilidade
+
+🚀 Um Especialista em Performance
+
+☁️ Um Especialista Cloud
+
+🛡️ Um Especialista em LGPD
+
+🧪 Um Especialista em Qualidade
+
+🏗️ Um Especialista em Arquitetura
+
+📦 Um Especialista em Microsserviços
+
+Todos analisando exatamente a mesma aplicação.
+
+Todos compartilhando contexto.
+
+Todos colaborando entre si.
+
+Todos produzindo uma única resposta consolidada.
+
+Não dezenas de relatórios.
+
+Uma única visão.
+
+Baseada em evidências.
+
+Com prioridades.
+
+Com riscos.
+
+Com impacto.
+
+Com recomendações.
+
+Com plano de ação.
 
 ---
 
 # 🛰️ O que é o SASS-X Sentinel?
 
-O **SASS-X Sentinel** é uma plataforma de Engenharia de Software Autônoma baseada em Inteligência Artificial Multiagente.
+O **SASS-X Sentinel** é uma **Engineering Intelligence Platform** construída para atuar como um **sentinela digital da Engenharia de Software**.
 
-Seu objetivo é funcionar como um **sentinela digital da engenharia**, acompanhando continuamente aplicações corporativas e identificando oportunidades de melhoria.
+Em vez de executar verificações isoladas, a plataforma observa continuamente todo o ecossistema tecnológico, compreende o contexto da aplicação e coordena especialistas digitais capazes de produzir análises muito mais completas do que ferramentas tradicionais conseguem entregar individualmente.
 
-A plataforma analisa:
+Seu objetivo é apoiar organizações na evolução contínua de seus sistemas por meio de Inteligência Artificial Multiagente, conhecimento compartilhado e decisões orientadas por evidências.
 
-* Arquitetura;
-* Segurança;
-* Qualidade;
-* Código-fonte;
-* Performance;
-* Observabilidade;
-* APIs;
-* Banco de Dados;
-* Microsserviços;
-* Cloud;
-* DevOps;
-* Compliance;
-* Governança.
+<p align="center">
+    <img src="media/sentinel-demo.png">
+</p>
 
----
+O Sentinel pode analisar continuamente aspectos como:
 
-# Muito além de um Code Review
+- Arquitetura
+- Código-fonte
+- Segurança
+- DevSecOps
+- Observabilidade
+- Performance
+- APIs
+- Microsserviços
+- Banco de Dados
+- Cloud
+- Kubernetes
+- Governança
+- Compliance
+- Fluxos de negócio
+- Qualidade de Software
 
-O Sentinel não substitui ferramentas existentes.
-
-Ele conecta essas ferramentas.
-
-Ele atua como uma camada inteligente acima do ecossistema tecnológico existente.
-
-Enquanto ferramentas tradicionais respondem:
-
-> "Existe uma vulnerabilidade?"
-
-O Sentinel busca responder:
-
-> "Qual o impacto desta vulnerabilidade, por que ela existe, qual risco representa, qual prioridade possui e qual a melhor estratégia para corrigir?"
+Mais do que identificar problemas, a plataforma busca compreender sua origem, avaliar impactos, correlacionar evidências e propor estratégias de evolução.
 
 ---
 
-# 🧠 Como o Sentinel funciona
+# Muito mais do que um Code Review
 
-A plataforma utiliza um modelo baseado em:
+O Sentinel não foi criado para substituir ferramentas já consolidadas.
 
+Seu propósito é muito maior.
+
+Ele funciona como uma camada inteligente posicionada acima de todo o ecossistema de Engenharia.
+
+Enquanto scanners tradicionais respondem perguntas específicas, o Sentinel busca compreender o cenário completo.
+
+Em vez de simplesmente informar:
+
+> "Existe uma vulnerabilidade."
+
+O Sentinel procura responder:
+
+- Qual é o impacto dessa vulnerabilidade?
+- Qual componente será afetado?
+- Qual a prioridade real?
+- Existe correlação com outros problemas?
+- Qual é o risco para o negócio?
+- Como corrigir?
+- Qual o esforço estimado?
+- Qual o melhor plano de evolução?
+
+A plataforma transforma milhares de informações técnicas dispersas em conhecimento estruturado capaz de apoiar decisões estratégicas.
+
+---
+
+# Engenharia orientada por Inteligência
+
+O SASS-X Sentinel parte de um princípio simples.
+
+Ferramentas geram dados.
+
+Especialistas geram conhecimento.
+
+O Sentinel conecta esses dois mundos.
+
+Ele utiliza Inteligência Artificial para interpretar informações produzidas por diferentes tecnologias, compartilhar contexto entre especialistas digitais e construir uma visão única da aplicação.
+
+O resultado não é apenas uma lista de problemas.
+
+É um diagnóstico completo da Engenharia acompanhado por recomendações, evidências, prioridades e planos de evolução.
+
+---
+# 🏗️ Como o SASS-X Sentinel funciona
+
+O SASS-X Sentinel foi concebido para atuar como uma plataforma inteligente de Engenharia de Software capaz de compreender um ambiente corporativo de forma muito semelhante à atuação de uma equipe altamente especializada.
+
+Enquanto ferramentas tradicionais executam verificações independentes, o Sentinel trabalha continuamente correlacionando informações, compartilhando contexto entre especialistas digitais e produzindo uma visão consolidada sobre a saúde da aplicação.
+
+Toda execução segue um fluxo organizado, previsível e rastreável.
+
+Cada etapa possui responsabilidades bem definidas.
+
+Cada decisão pode ser auditada.
+
+Cada recomendação possui evidências.
+
+---
+
+# O ciclo de inteligência da plataforma
+
+A plataforma opera seguindo um ciclo contínuo de engenharia.
+
+```text
+Coleta
+    │
+    ▼
+Compreensão
+    │
+    ▼
+Planejamento
+    │
+    ▼
+Especialistas
+    │
+    ▼
+Correlação
+    │
+    ▼
+Priorização
+    │
+    ▼
+Relatório
+    │
+    ▼
+Evolução
 ```
-        Usuário
-        ↓
-        Orquestrador Inteligente
-        ↓
-        Especialistas Digitais
-        ↓
-        Evidências Técnicas
-        ↓
-        Consolidação
-        ↓
-        Conhecimento
-        ↓
-        Relatórios e Recomendações
+
+Esse ciclo permite que o conhecimento produzido durante uma análise seja reutilizado nas próximas execuções, tornando a plataforma continuamente mais eficiente.
+
+---
+
+# Uma arquitetura baseada em especialistas
+
+Em vez de uma única Inteligência Artificial tentando resolver todos os problemas da Engenharia de Software, o Sentinel distribui responsabilidades entre especialistas digitais.
+
+Cada agente possui um domínio específico de conhecimento.
+
+Cada especialista entende profundamente um conjunto de tecnologias.
+
+Cada análise acontece de forma colaborativa.
+
+Ao final, todas as descobertas são consolidadas em uma única resposta.
+
+Essa estratégia reduz ruído, melhora a qualidade das recomendações e aumenta significativamente a precisão das análises.
+
+---
+
+# Arquitetura resumida
+
+A plataforma foi construída sobre uma arquitetura em camadas, separando claramente responsabilidades, conhecimento e execução.
+
+<p align="center">
+    <img src="media/architecture.png">
+</p>
+
+Em alto nível, a arquitetura pode ser resumida da seguinte forma:
+
+```text
+                    Usuário
+
+                       │
+
+                       ▼
+
+              SASS-X Sentinel
+
+                       │
+
+        ┌──────────────┼──────────────┐
+
+        ▼              ▼              ▼
+
+ Planejamento     Inteligência     Conhecimento
+
+                       │
+
+                       ▼
+
+             Especialistas Digitais
+
+                       │
+
+                       ▼
+
+        Consolidação de Evidências
+
+                       │
+
+                       ▼
+
+      Relatórios • Roadmaps • Insights
 ```
 
+Essa separação permite que a plataforma evolua continuamente sem comprometer sua arquitetura principal.
+
 ---
 
-# 🏗 Arquitetura resumida
+# Inteligência Multiagente
 
-```mermaid
-flowchart LR
+O coração do Sentinel é seu sistema de Inteligência Multiagente.
 
-User["Engenheiros / Arquitetos / Times"]
+Em vez de uma IA generalista tentando compreender todos os aspectos da Engenharia, a plataforma distribui o trabalho entre especialistas digitais independentes.
 
-User
+Cada agente atua como um profissional experiente de uma área específica.
 
---> Sentinel["SASS-X Sentinel"]
+Alguns exemplos:
 
-Sentinel
+- Arquiteto de Software
+- Especialista DevSecOps
+- Especialista OWASP
+- Especialista LGPD
+- Especialista Kubernetes
+- Especialista Cloud
+- Especialista Performance
+- Especialista em APIs
+- Especialista em Microsserviços
+- Especialista em Banco de Dados
+- Especialista Observabilidade
+- Especialista Clean Code
+- Especialista SOLID
+- Especialista Design Patterns
+- Especialista CI/CD
 
---> Orchestrator["AI Orchestrator"]
+Todos trabalham simultaneamente.
 
-Orchestrator
+Todos compartilham contexto.
 
---> Agents["Especialistas Digitais"]
+Todos colaboram entre si.
 
-Agents
+---
 
---> Knowledge["Engineering Intelligence Graph"]
+# O conhecimento é compartilhado
 
-Agents
+Uma das maiores diferenças do Sentinel é que seus especialistas não trabalham isoladamente.
 
---> Workspace["Execution Workspace"]
+Cada descoberta realizada durante uma análise pode enriquecer imediatamente o trabalho dos demais agentes.
 
-Workspace
+Por exemplo:
 
---> Reports["Relatórios Inteligentes"]
+O especialista em Observabilidade pode identificar uma falha de rastreabilidade.
 
-Reports
+Essa informação passa automaticamente para o especialista de Arquitetura.
 
---> User
+Que compartilha contexto com o especialista DevSecOps.
+
+Que também informa o especialista de Performance.
+
+Ao final, a plataforma deixa de produzir quatro problemas isolados.
+
+Ela produz um único diagnóstico técnico muito mais completo.
+
+---
+
+# Engenharia orientada por evidências
+
+Toda recomendação produzida pelo Sentinel precisa ser sustentada por evidências concretas.
+
+Nenhuma conclusão é baseada apenas em interpretação.
+
+Cada recomendação pode conter informações como:
+
+- Arquivo analisado
+- Linha do código
+- Evidência encontrada
+- Impacto técnico
+- Impacto para o negócio
+- Nível de severidade
+- Especialista responsável
+- Grau de confiança
+- Sugestão de correção
+- Prioridade
+
+Isso torna toda recomendação auditável.
+
+---
+
+# Uma única visão da aplicação
+
+Durante uma análise centenas de informações podem ser produzidas.
+
+Sem uma estratégia de consolidação isso rapidamente se transforma em dezenas de relatórios desconectados.
+
+O Sentinel resolve esse problema através de uma camada de consolidação inteligente.
+
+Ela é responsável por:
+
+- remover informações duplicadas;
+- correlacionar descobertas semelhantes;
+- eliminar conflitos entre especialistas;
+- consolidar riscos;
+- calcular prioridades;
+- produzir um plano único de evolução.
+
+O resultado é uma visão executiva da Engenharia.
+
+Muito mais simples de interpretar.
+
+Muito mais útil para tomada de decisão.
+
+---
+
+# Muito além da análise de código
+
+Embora o código-fonte seja uma das principais fontes de informação da plataforma, ele representa apenas uma parte do conhecimento necessário para compreender um sistema corporativo.
+
+O Sentinel também pode considerar informações provenientes de:
+
+- arquitetura;
+- pipelines;
+- observabilidade;
+- infraestrutura;
+- ambientes cloud;
+- logs;
+- eventos;
+- APIs;
+- métricas;
+- documentação técnica;
+- requisitos de negócio;
+- integrações externas;
+- plataformas DevOps.
+
+Isso permite compreender não apenas "como o código foi escrito", mas também "como o sistema realmente se comporta".
+
+---
+
+# Principais capacidades da plataforma
+
+Entre as principais capacidades do Sentinel estão:
+
+## 🏗️ Arquitetura
+
+- avaliação arquitetural;
+- identificação de gargalos;
+- detecção de acoplamentos excessivos;
+- análise de evolução arquitetural;
+- apoio à modernização.
+
+---
+
+## 🔐 Segurança
+
+- OWASP Top 10;
+- DevSecOps;
+- LGPD;
+- análise de vulnerabilidades;
+- gestão de riscos;
+- compliance.
+
+---
+
+## 📊 Observabilidade
+
+- logging;
+- métricas;
+- tracing;
+- APM;
+- correlação de eventos;
+- SRE.
+
+---
+
+## ⚙️ Engenharia
+
+- Clean Code;
+- SOLID;
+- Design Patterns;
+- dívida técnica;
+- qualidade de software;
+- arquitetura evolutiva.
+
+---
+
+## ☁️ Plataforma
+
+- Kubernetes;
+- Microsserviços;
+- Cloud Computing;
+- APIs;
+- Containers;
+- Integrações.
+
+---
+
+## 🤖 Inteligência
+
+- Inteligência Multiagente;
+- Knowledge Graph;
+- compartilhamento de contexto;
+- memória organizacional;
+- aprendizado contínuo;
+- priorização inteligente.
+
+---
+
+# Muito mais do que automação
+
+O Sentinel não busca apenas automatizar tarefas repetitivas.
+
+Seu propósito é elevar o nível das decisões técnicas tomadas durante todo o ciclo de vida do software.
+
+Em vez de simplesmente acelerar atividades, a plataforma procura aumentar a qualidade da Engenharia.
+
+Automação é consequência.
+
+Inteligência é o objetivo.
+
+---
+
+# Os cinco princípios fundamentais
+
+Toda decisão produzida pelo Sentinel segue cinco princípios que orientam toda a plataforma.
+
+## Evidências acima de opiniões
+
+Toda recomendação precisa ser sustentada por fatos verificáveis.
+
+---
+
+## Especialização
+
+Cada agente possui responsabilidades claramente definidas.
+
+---
+
+## Conhecimento compartilhado
+
+Especialistas colaboram continuamente entre si.
+
+---
+
+## Priorização inteligente
+
+Nem todo problema possui o mesmo impacto.
+
+O Sentinel ajuda a decidir o que realmente importa.
+
+---
+
+## Engenharia sob controle humano
+
+A Inteligência Artificial recomenda.
+
+A Engenharia decide.
+
+O ser humano permanece responsável pelas decisões críticas.
+
+# 🚀 O que torna o SASS-X Sentinel diferente?
+
+O mercado possui excelentes ferramentas de Engenharia de Software.
+
+Scanners de segurança.
+
+Plataformas de observabilidade.
+
+Ferramentas de qualidade.
+
+Analisadores estáticos.
+
+Plataformas DevOps.
+
+Soluções baseadas em Inteligência Artificial.
+
+Todas elas são extremamente importantes.
+
+O problema é que cada uma responde apenas parte das perguntas.
+
+Nenhuma delas possui uma visão completa da Engenharia.
+
+O SASS-X Sentinel foi criado exatamente para preencher essa lacuna.
+
+Sua proposta não é substituir ferramentas existentes.
+
+Sua missão é conectá-las, compreender seus resultados e transformar milhares de informações técnicas em conhecimento estratégico para Engenharia.
+
+---
+
+# Uma plataforma acima das ferramentas
+
+Enquanto ferramentas tradicionais trabalham isoladamente, o Sentinel atua como uma camada inteligente sobre todo o ecossistema tecnológico.
+
+```text
+                 Engenharia
+
+                      │
+
+                      ▼
+
+        GitHub • GitLab • Azure DevOps
+
+                      │
+
+                      ▼
+
+ SonarQube • Snyk • Semgrep • Dependency Check
+
+                      │
+
+                      ▼
+
+ Elastic • New Relic • Dynatrace • Grafana
+
+                      │
+
+                      ▼
+
+ Kubernetes • Cloud • APIs • Banco de Dados
+
+                      │
+
+                      ▼
+
+           SASS-X Sentinel Intelligence
+
+                      │
+
+                      ▼
+
+     Conhecimento • Insights • Decisões
 ```
 
----
+O Sentinel não compete com essas plataformas.
 
-# 🤖 Sistema Multiagente
-
-Cada agente possui uma especialidade.
-
-Exemplos:
-
-| Especialista        | Responsabilidade          |
-| ------------------- | ------------------------- |
-| Security Agent      | Vulnerabilidades e riscos |
-| OWASP Agent         | Segurança Web             |
-| Quality Agent       | Clean Code e qualidade    |
-| Architecture Agent  | Padrões arquiteturais     |
-| Performance Agent   | Gargalos                  |
-| Observability Agent | Logs, métricas e tracing  |
-| DevOps Agent        | Pipelines e entrega       |
-| Cloud Agent         | Boas práticas cloud       |
-| Compliance Agent    | Governança                |
-
-Os especialistas trabalham juntos através de um orquestrador inteligente.
+Ele potencializa todas elas.
 
 ---
 
-# 🧬 Diferenciais da Plataforma
+# O diferencial não é a Inteligência Artificial.
 
-## Evidência antes de opinião
+É a Engenharia.
 
-Nenhuma recomendação existe sem evidência técnica.
+Hoje praticamente toda ferramenta afirma utilizar Inteligência Artificial.
 
----
+Entretanto, poucas foram projetadas sob uma perspectiva genuinamente arquitetural.
 
-## Inteligência especializada
+O Sentinel foi concebido por um princípio diferente.
 
-Cada agente possui uma missão clara.
+A Inteligência Artificial é apenas um meio.
 
----
+O verdadeiro produto é Engenharia de Software.
 
-## Conhecimento acumulativo
+Toda recomendação existe para apoiar decisões arquiteturais.
 
-O Sentinel aprende com execuções anteriores através do Engineering Knowledge Graph.
+Toda análise busca responder perguntas que realmente importam para equipes técnicas.
 
----
-
-## Rastreamento completo
-
-Cada análise possui:
-
-* Contexto;
-* Evidências;
-* Decisões;
-* Checkpoints;
-* Relatórios.
+Toda conclusão procura gerar valor para o negócio.
 
 ---
 
-## Human-in-the-loop
+# Engenharia baseada em contexto
 
-A IA recomenda.
+Uma vulnerabilidade isolada raramente representa toda a história.
 
-A engenharia decide.
+Um gargalo de performance pode ser consequência de uma decisão arquitetural.
 
-Mudanças críticas permanecem sob aprovação humana.
+Uma falha de observabilidade pode esconder um problema operacional.
 
----
+Um alto consumo de recursos pode estar relacionado a uma estratégia inadequada de microsserviços.
 
-# 📊 Status da Plataforma
+O Sentinel procura compreender essas relações.
 
-| Capacidade                  | Status           |
-| --------------------------  | ---------------- |
-| Orquestração Inteligente    | ✅ Implementada  |
-| Framework de Especialistas  | ✅ Implementado  |
-| Workspace Auditável         | ✅ Implementado  |
-| Knowledge Graph             | ✅ Implementado  |
-| Relatórios Inteligentes     | ✅ Implementado  |
-| Segurança e Governança      | ✅ Estruturado   |
-| Evolução Enterprise (Sempre)| 🚀 Em andamento  |
+Ele correlaciona informações.
+
+Compartilha conhecimento.
+
+Identifica padrões.
+
+Produz uma visão sistêmica da aplicação.
 
 ---
 
-# 🎯 Para quem foi criado?
+# De dados para conhecimento
 
-O Sentinel foi desenvolvido para organizações que tratam software como ativo estratégico.
+Ferramentas normalmente produzem dados.
 
-Público:
+O Sentinel produz conhecimento.
 
-* CTOs;
-* Arquitetos de Software;
-* Staff Engineers;
-* Tech Leads;
-* Times DevSecOps;
-* Times SRE;
-* Desenvolvedores;
-* Empresas com ambientes complexos.
+A diferença parece pequena.
 
----
+Mas muda completamente a tomada de decisão.
 
-# 🌎 Casos de uso
+Em vez de entregar milhares de alertas, a plataforma responde perguntas como:
 
-## Auditoria contínua
+- O que realmente representa risco?
+- O que deve ser corrigido primeiro?
+- Qual componente está degradando toda a arquitetura?
+- Existe relação entre esses problemas?
+- Qual decisão oferece maior retorno técnico?
+- Como reduzir dívida técnica sem comprometer entregas?
 
-Análise automática de aplicações.
+Essas respostas dificilmente seriam produzidas por ferramentas isoladas.
 
 ---
 
-## Modernização de sistemas legados
+# Inteligência colaborativa
 
-Identificação de riscos e oportunidades.
+Cada especialista digital possui competências específicas.
 
----
+Nenhum agente trabalha sozinho.
 
-## Segurança preventiva
+Durante toda execução existe troca contínua de conhecimento.
 
-Detecção antecipada de vulnerabilidades.
+```text
+Especialista Segurança
+          │
+          ▼
+Especialista Arquitetura
+          │
+          ▼
+Especialista Observabilidade
+          │
+          ▼
+Especialista Performance
+          │
+          ▼
+Especialista DevOps
+          │
+          ▼
+Especialista Cloud
 
----
+          ▼
 
-## Governança arquitetural
+Conhecimento Compartilhado
+```
 
-Garantia de padrões corporativos.
+Essa colaboração permite que um mesmo problema seja analisado sob diferentes perspectivas.
 
----
-
-## DevSecOps inteligente
-
-Integração ao ciclo de entrega.
-
----
-
-## Apoio à decisão técnica
-
-Transformação de dados em estratégia.
-
----
-
-# 📚 Documentação da Plataforma
-
-A documentação foi organizada como uma visão completa do produto.
-
-| Documento                                                                 | Objetivo                    |
-| ------------------------------------------------------------------------- | --------------------------- |
-| [01-vision.md](docs/01-vision.md)                                         | Visão estratégica           |
-| [02-business-problem.md](docs/02-business-problem.md)                     | Problema de negócio         |
-| [03-how-it-works.md](docs/03-how-it-works.md)                             | Funcionamento               |
-| [04-architecture.md](docs/04-architecture.md)                             | Arquitetura                 |
-| [05-multi-agent-system.md](docs/05-multi-agent-system.md)                 | Sistema multiagente         |
-| [06-data-flow.md](docs/06-data-flow.md)                                   | Fluxo de conhecimento       |
-| [07-execution-lifecycle.md](docs/07-execution-lifecycle.md)                         | Fluxo operacional           |
-| [08-platform-security-and-governance.md](docs/08-platform-security-and-governance.md)                                     | Segurança                   |
-| [09-observability.md](docs/09-observability.md)                           | Observabilidade             |
-| [10-integrations.md](docs/10-integrations.md)                             | Integrações                 |
-| [11-specialists-catalog.md](docs/11-specialists-catalog.md)               | Arquitetura enterprise      |
-| [12-deployment-models.md](docs/12-deployment-models.md)                                   | Casos de uso                |
-| [13-platform-roadmap.md](docs/13-platform-roadmap.md)                 | Eficiência de IA            |
-| [14-contributing.md](docs/14-contributing.md)                                       | Evolução futura             |
-| [15-reference-architecture.md](docs/15-reference-architecture.md)                                               | Perguntas frequentes        |
-| [16-runtime-architecture.md](docs/16-runtime-architecture.md)             | Motor de execução           |
-| [17-knowledge-graph.md](docs/17-knowledge-graph.md)                       | Memória organizacional      |
-| [18-workspace.md](docs/18-workspace.md)                                   | Auditoria e rastreabilidade |
-| [19-agent-framework.md](docs/19-agent-framework.md)                       | Framework de especialistas  |
+O resultado é muito mais consistente.
 
 ---
 
-# 🤝 Construindo o futuro da Engenharia
+# Uma plataforma construída para evoluir
 
-O SASS-X Sentinel representa uma nova visão:
+O Sentinel não foi desenvolvido para resolver apenas os desafios atuais da Engenharia.
 
-Software não deve ser apenas desenvolvido.
+Sua arquitetura foi desenhada para crescer continuamente.
 
-Ele deve ser compreendido.
+Novos especialistas podem ser incorporados sem alterar a estrutura principal.
 
-Monitorado.
+Novas integrações podem ser adicionadas de forma incremental.
 
-Protegido.
+Novos mecanismos de IA podem substituir tecnologias existentes.
 
-Evoluído.
+Novos modelos de análise podem coexistir dentro da mesma plataforma.
 
----
-
-A próxima geração da engenharia será construída pela colaboração entre:
-
-**Conhecimento humano + Inteligência Artificial + Automação inteligente**
+Essa característica torna o Sentinel uma plataforma preparada para acompanhar a evolução constante da Engenharia de Software.
 
 ---
 
-# 🛰️ SASS-X Sentinel
+# Muito além do desenvolvimento
 
-## O sentinela digital que acompanha a evolução do software.
+Embora desenvolvedores sejam usuários naturais da plataforma, seu alcance é significativamente maior.
 
-*"O código muda todos os dias.
-O conhecimento precisa evoluir junto."*
+O Sentinel pode apoiar decisões em diferentes níveis da organização.
 
+## Desenvolvedores
+
+Recebem recomendações técnicas durante a implementação.
+
+---
+
+## Tech Leads
+
+Obtêm uma visão consolidada da qualidade técnica das equipes.
+
+---
+
+## Arquitetos
+
+Avaliam continuamente a evolução arquitetural dos sistemas.
+
+---
+
+## DevSecOps
+
+Recebem análises preventivas sobre riscos de segurança.
+
+---
+
+## Equipes SRE
+
+Compreendem melhor comportamento operacional, incidentes e observabilidade.
+
+---
+
+## Gestores de Engenharia
+
+Passam a visualizar indicadores estratégicos sobre maturidade técnica.
+
+---
+
+## CTOs
+
+Obtêm uma visão executiva da evolução tecnológica da organização.
+
+---
+
+# Uma plataforma orientada ao ciclo completo da Engenharia
+
+O Sentinel acompanha toda a jornada do software.
+
+```text
+Planejamento
+
+      │
+
+      ▼
+
+Desenvolvimento
+
+      │
+
+      ▼
+
+Code Review
+
+      │
+
+      ▼
+
+Integração Contínua
+
+      │
+
+      ▼
+
+Deploy
+
+      │
+
+      ▼
+
+Produção
+
+      │
+
+      ▼
+
+Observabilidade
+
+      │
+
+      ▼
+
+Aprendizado Contínuo
+
+      │
+
+      ▼
+
+Nova Evolução
+```
+
+Cada etapa gera novos conhecimentos.
+
+Cada novo conhecimento fortalece futuras análises.
+
+A plataforma torna-se continuamente mais inteligente.
+
+---
+
+# Para quem o Sentinel foi criado
+
+O SASS-X Sentinel foi concebido para organizações que enxergam software como um ativo estratégico.
+
+É especialmente indicado para:
+
+- Grandes empresas de tecnologia;
+- Bancos;
+- Fintechs;
+- Empresas de Saúde;
+- Governo;
+- Varejo;
+- Indústria;
+- Empresas SaaS;
+- Consultorias de Tecnologia;
+- Fábricas de Software;
+- Centros de Excelência;
+- Squads Ágeis;
+- Plataformas Enterprise.
+
+Independentemente do segmento, o objetivo permanece o mesmo.
+
+Reduzir riscos.
+
+Melhorar decisões.
+
+Aumentar a qualidade da Engenharia.
+
+---
+
+# Conheça toda a documentação da plataforma
+
+Esta documentação foi organizada para apresentar o Sentinel desde sua visão estratégica até os detalhes técnicos de sua arquitetura.
+
+Cada documento aprofunda uma dimensão específica da plataforma.
+
+## 📚 Documentação Oficial
+
+| Documento | O que você encontrará |
+|------------|----------------------|
+| **01-platform-vision.md** | A visão estratégica que originou o SASS-X Sentinel e o futuro da Engenharia de Software. |
+| **02-business-challenges.md** | Os desafios enfrentados pelas organizações modernas e como o Sentinel os resolve. |
+| **03-sentinel-operating-model.md** | O modelo operacional completo da plataforma, do início ao fim de uma análise. |
+| **04-platform-architecture.md** | A arquitetura lógica da solução e seus principais componentes. |
+| **05-multi-agent-intelligence.md** | Como dezenas de especialistas digitais colaboram para produzir inteligência. |
+| **06-engineering-knowledge-flow.md** | O fluxo de conhecimento entre especialistas, memória organizacional e aprendizado contínuo. |
+| **07-execution-lifecycle.md** | Todo o ciclo de vida de execução de uma solicitação dentro da plataforma. |
+| **08-security-governance.md** | Segurança corporativa, governança, compliance e princípios DevSecOps. |
+| **09-observability-intelligence.md** | Observabilidade inteligente aplicada à Engenharia de Software moderna. |
+| **10-ecosystem-integrations.md** | Integrações com GitHub, Azure DevOps, Kubernetes, Elastic, New Relic e demais plataformas. |
+| **11-enterprise-capabilities.md** | Capacidades Enterprise voltadas para organizações de grande porte. |
+| **12-business-use-cases.md** | Casos reais de utilização da plataforma em diferentes cenários corporativos. |
+| **13-ai-efficiency-strategy.md** | Estratégias de otimização de contexto, cache e eficiência na utilização de IA. |
+| **14-evolution-roadmap.md** | A visão de evolução da plataforma e seus próximos passos tecnológicos. |
+| **15-community-and-contribution.md** | Como participar, colaborar e contribuir para a evolução do projeto. |
+| **16-runtime-engine-architecture.md** | A arquitetura do motor de execução responsável pela orquestração dos especialistas. |
+| **17-engineering-knowledge-graph.md** | O modelo de memória organizacional baseado em grafos de conhecimento. |
+| **18-audit-workspace-model.md** | Estrutura de auditoria, rastreabilidade e organização dos artefatos gerados. |
+| **19-agent-framework.md** | O framework responsável pela criação, evolução e especialização dos agentes inteligentes. |
+
+---
+
+# Documentos complementares
+
+Além da documentação principal, este repositório disponibiliza materiais que explicam a filosofia, governança e evolução do projeto.
+
+| Documento | Finalidade |
+|------------|------------|
+| **VISION.md** | Manifesto estratégico da plataforma. |
+| **ENGINEERING_OPERATING_MODEL.md** | Modelo operacional de Engenharia adotado pelo Sentinel. |
+| **ARCHITECTURE_DECISIONS.md** | Registro das principais decisões arquiteturais (ADRs). |
+| **CHANGELOG.md** | Histórico de evolução do projeto. |
+| **CONTRIBUTING.md** | Guia para contribuições da comunidade. |
+| **LICENSE.md** | Licenciamento da plataforma. |
+
+---
+
+# Bem-vindo ao futuro da Engenharia de Software
+
+A Engenharia moderna deixou de ser apenas desenvolvimento de código.
+
+Hoje ela exige conhecimento compartilhado.
+
+Contexto.
+
+Especialização.
+
+Colaboração.
+
+Governança.
+
+Observabilidade.
+
+Segurança.
+
+Arquitetura.
+
+E, principalmente, inteligência aplicada às decisões.
+
+O **SASS-X Sentinel** nasce exatamente com esse propósito.
+
+Não apenas automatizar tarefas.
+
+Mas elevar o nível da Engenharia de Software.
+
+Transformando milhares de informações dispersas em conhecimento estruturado capaz de apoiar organizações na construção de sistemas mais seguros, resilientes, escaláveis e sustentáveis.
+
+---
+
+## Continue explorando
+
+A documentação foi organizada para que cada capítulo aprofunde uma dimensão específica da plataforma.
+
+Comece pela visão estratégica.
+
+Compreenda os desafios.
+
+Conheça a arquitetura.
+
+Descubra como especialistas colaboram.
+
+E acompanhe a construção de uma nova geração de plataformas inteligentes para Engenharia de Software.
+
+**Bem-vindo ao universo do SASS-X Sentinel.**
 
 ---
 
@@ -474,7 +1136,3 @@ O conhecimento precisa evoluir junto."*
       </p>
     </td>
   </tr>
-
-**Versão:** 1.0
-**Categoria:** Engineering Intelligence Platform
-**Status:** Em evolução contínua 🚀

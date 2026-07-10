@@ -35,6 +35,10 @@ G-->H[Workspace]
 H-->I[Memória]
 ```
 
+<p align="center">
+    <img src="../media/execution-flow.png">
+</p>
+
 Cada etapa possui objetivos claros e critérios de conclusão bem definidos.
 
 ---
@@ -194,6 +198,10 @@ Durante esse processo:
 * produzem recomendações.
 
 Nenhum especialista altera código diretamente.
+
+<p align="center">
+    <img src="../media/execution.png">
+</p>
 
 Toda execução é não destrutiva por padrão.
 
@@ -479,6 +487,6 @@ Esses princípios permitem que o Sentinel funcione como uma plataforma de Engenh
 
 ## Próximo capítulo
 
-➡ **08-platform-security-and-governance.md**
+➡ **08-security-governance.md**
 
 Conheceremos como o Sentinel trata segurança, governança, auditoria, conformidade, LGPD, controle de acesso, rastreabilidade e o modelo Human-in-the-Loop que garante que a inteligência artificial apoie — e nunca substitua — as decisões de engenharia.

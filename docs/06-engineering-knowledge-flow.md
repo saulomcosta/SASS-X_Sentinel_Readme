@@ -273,6 +273,10 @@ Risco Crítico
 Roadmap Prioritário
 ```
 
+<p align="center">
+    <img src="../media/knowledge-flow.png">
+</p>
+
 Observe que o resultado não é apenas um alerta.
 
 É uma conclusão contextualizada.

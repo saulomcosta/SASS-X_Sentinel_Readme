@@ -4,6 +4,10 @@
 
 > *O Engineering Intelligence Graph é o núcleo de conhecimento do SASS-X Sentinel. Ele transforma análises isoladas em inteligência reutilizável, permitindo que a plataforma evolua continuamente a partir das experiências acumuladas durante sua operação.*
 
+<p align="center">
+    <img src="../media/knowledge-flow.png">
+</p>
+
 ---
 
 # Visão Geral
@@ -357,6 +361,6 @@ Mais do que uma base de dados, ele representa a memória viva da plataforma, per
 
 ## Próximo capítulo
 
-➡ **18-workspace.md**
+➡ **18-audit-workspace-model.md**
 
 No próximo capítulo conheceremos o **Workspace**, o ambiente isolado de execução do Sentinel. Veremos como cada análise gera seu próprio espaço de trabalho, garantindo rastreabilidade, checkpoints, evidências, relatórios e reprodução completa de cada execução.

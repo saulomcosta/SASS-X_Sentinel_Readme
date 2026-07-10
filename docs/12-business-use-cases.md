@@ -4,6 +4,10 @@
 
 > *Cada organização possui necessidades diferentes de segurança, infraestrutura, conformidade e escala. O SASS-X Sentinel foi projetado para adaptar-se a diferentes cenários de implantação, desde ambientes locais até grandes ecossistemas corporativos distribuídos.*
 
+<p align="center">
+    <img src="../media/sentinel-demo.png">
+</p>
+
 ---
 
 # Uma plataforma preparada para crescer
@@ -309,6 +313,6 @@ Independentemente do cenário escolhido, os princípios de especialização, col
 
 ## Próximo capítulo
 
-➡ **13-platform-roadmap.md**
+➡ **13-ai-efficiency-strategy.md**
 
 No próximo capítulo conheceremos o roadmap estratégico da plataforma, apresentando a visão de evolução do SASS-X Sentinel, seus pilares tecnológicos, capacidades planejadas e a direção arquitetural para os próximos ciclos de desenvolvimento.

@@ -6,6 +6,10 @@
 
 ---
 
+<p align="center">
+    <img src="../media/banner.png">
+</p>
+
 # A Engenharia de Software mudou.
 
 Durante muitos anos desenvolver software significava escrever código.
@@ -424,6 +428,6 @@ Porque acreditamos que o maior ativo de uma organização não é seu código.
 
 ## Próximo capítulo
 
-➡ **02-business-problem.md**
+➡ **02-business-challenges.md**
 
 **Como o SASS-X Sentinel resolve problemas reais enfrentados por empresas, equipes de engenharia e organizações que desenvolvem software em larga escala.**

@@ -4,6 +4,10 @@
 
 > *O verdadeiro valor do SASS-X Sentinel não está na quantidade de especialistas digitais que possui, mas na diversidade de capacidades que consegue oferecer às equipes de engenharia.*
 
+<p align="center">
+    <img src="../media/architecture2.png">
+</p>
+
 ---
 
 # Muito além de uma lista de especialistas
@@ -366,6 +370,6 @@ Essa visão permite que organizações compreendam rapidamente o alcance da plat
 
 ## Próximo capítulo
 
-➡ **12-deployment-models.md**
+➡ **12-business-use-cases.md**
 
 No próximo capítulo conheceremos os modelos de implantação do SASS-X Sentinel, explorando cenários locais, corporativos, híbridos e em nuvem, além das estratégias de escalabilidade, isolamento e operação em ambientes enterprise.

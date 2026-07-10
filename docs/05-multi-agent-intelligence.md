@@ -4,6 +4,9 @@
 
 > *Nenhum engenheiro domina todas as áreas da tecnologia. O mesmo princípio foi aplicado ao SASS-X Sentinel. Em vez de uma única Inteligência Artificial tentando resolver qualquer problema, a plataforma organiza especialistas digitais independentes, cada um responsável por um domínio específico da Engenharia de Software.*
 
+<p align="center">
+    <img src="../media/architecture2.png">
+</p>
 ---
 
 # Uma organização, não um conjunto de agentes
@@ -415,3 +418,8 @@ Essa abordagem aumenta a qualidade das análises, melhora a rastreabilidade e ap
 
 ---
 
+## Próximo capítulo
+
+➡ **06-engineering-knowledge-flow.md**
+
+No próximo capítulo veremos como os dados percorrem toda a plataforma, desde a entrada de uma solicitação até a geração de conhecimento, evidências, relatórios e memória compartilhada, formando o ciclo contínuo de aprendizado do SASS-X Sentinel.

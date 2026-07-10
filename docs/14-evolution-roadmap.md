@@ -281,6 +281,6 @@ Cada contribuição representa uma oportunidade de fortalecer não apenas o cód
 
 ## Próximo capítulo
 
-➡ **15-reference-architecture.md**
+➡ **15-community-and-contribution.md**
 
 No próximo capítulo apresentaremos a Arquitetura de Referência do SASS-X Sentinel, consolidando todos os conceitos apresentados anteriormente em uma visão unificada da plataforma, incluindo seus componentes, fluxos, domínios, integrações e princípios arquiteturais.

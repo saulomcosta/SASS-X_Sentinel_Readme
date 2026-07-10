@@ -409,7 +409,7 @@ O resultado é uma plataforma capaz de crescer continuamente sem perder organiza
 
 # Próximo capítulo
 
-➡ **09-observability.md**
+➡ **09-observability-intelligence.md**
 
 No próximo capítulo será apresentada a camada de Observabilidade Inteligente do SASS-X Sentinel, abordando métricas, logs, traces distribuídos, APM, SRE, análise de comportamento operacional, correlação de eventos e os mecanismos utilizados para transformar dados técnicos em inteligência para tomada de decisão.
 

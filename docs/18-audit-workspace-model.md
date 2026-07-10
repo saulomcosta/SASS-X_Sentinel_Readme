@@ -4,6 +4,10 @@
 
 > *O Workspace representa o espaço operacional de cada execução do SASS-X Sentinel. Ele concentra contexto, evidências, checkpoints, decisões e resultados, permitindo que qualquer análise seja auditada, reproduzida e compreendida posteriormente.*
 
+<p align="center">
+    <img src="../media/execution-flow.png">
+</p>
+
 ---
 
 # Visão Geral

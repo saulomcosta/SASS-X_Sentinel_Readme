@@ -4,6 +4,10 @@
 
 > *O SASS-X Sentinel não é um projeto concluído. É uma plataforma em evolução contínua, construída para acompanhar as transformações da Engenharia de Software, da Inteligência Artificial e da Computação em Nuvem.*
 
+<p align="center">
+    <img src="../media/knowledge-flow.png">
+</p>
+
 ---
 
 # Nossa Visão
@@ -237,6 +241,6 @@ Cada nova capacidade incorporada fortalecerá a missão central da plataforma: t
 
 ## Próximo capítulo
 
-➡ **14-contributing.md**
+➡ **14-evolution-roadmap.md**
 
 O próximo capítulo apresenta o modelo de contribuição da plataforma, explicando como novos especialistas, conectores, capacidades e melhorias podem ser desenvolvidos mantendo a consistência arquitetural do SASS-X Sentinel.

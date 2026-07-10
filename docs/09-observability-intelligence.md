@@ -4,6 +4,10 @@
 
 > *O SASS-X Sentinel entende que uma aplicação não pode ser avaliada apenas pelo código-fonte. Sistemas modernos precisam ser compreendidos pelo seu comportamento completo: código, arquitetura, infraestrutura, usuários, métricas e eventos em produção.*
 
+<p align="center">
+    <img src="../media/observability.png">
+</p>
+
 ---
 
 # Visão Geral
@@ -491,6 +495,6 @@ Ela se transforma em conhecimento estratégico para evolução contínua do soft
 
 ## Próximo capítulo
 
-➡ **10-integrations.md**
+➡ **10-ecosystem-integrations.md**
 
 No próximo capítulo serão apresentadas as integrações do SASS-X Sentinel com o ecossistema corporativo, incluindo ferramentas DevOps, Cloud, Segurança, Observabilidade, Gestão de Projetos e plataformas de desenvolvimento.

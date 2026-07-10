@@ -438,6 +438,6 @@ Essa arquitetura serve como base para a implementação, expansão e adoção da
 
 ## Próximo capítulo
 
-➡ **16-runtime-architecture.md**
+➡ **16-runtime-engine-architecture.md**
 
 No próximo capítulo exploraremos a Arquitetura de Runtime do SASS-X Sentinel, detalhando como os componentes interagem durante uma execução real, desde o recebimento de uma solicitação até a geração dos relatórios finais e a atualização do conhecimento organizacional.

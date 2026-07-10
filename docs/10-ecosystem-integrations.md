@@ -312,6 +312,6 @@ Quanto mais integrado estiver ao ambiente corporativo, maior será sua capacidad
 
 ## Próximo capítulo
 
-➡ **11-specialists-catalog.md**
+➡ **11-enterprise-capabilities.md**
 
 No próximo capítulo conheceremos o Catálogo de Especialistas Digitais, organizado por domínios de engenharia, tecnologias e capacidades, mostrando como a plataforma pode evoluir continuamente com novos especialistas sem alterar sua arquitetura principal.

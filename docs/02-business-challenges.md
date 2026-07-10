@@ -4,6 +4,10 @@
 
 > *Toda empresa de tecnologia possui software. Poucas conseguem compreender completamente o software que possuem.*
 
+<p align="center">
+    <img src="../media/banner.png">
+</p>
+
 ---
 
 # O paradoxo da Engenharia Moderna
@@ -398,6 +402,6 @@ Uma plataforma que transforma dados técnicos dispersos em conhecimento estrutur
 
 ## Próximo capítulo
 
-➡ **03-how-it-works.md**
+➡ **03-sentinel-operating-model.md**
 
 No próximo capítulo conheceremos como o SASS-X Sentinel funciona internamente, desde o recebimento de uma solicitação até a geração de relatórios, recomendações e planos de evolução arquitetural.

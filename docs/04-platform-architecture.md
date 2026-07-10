@@ -4,6 +4,10 @@
 
 > *O SASS-X Sentinel foi concebido como uma plataforma de engenharia contínua, composta por domínios independentes que colaboram entre si para transformar conhecimento técnico em decisões inteligentes.*
 
+<p align="center">
+    <img src="../media/architecture.png">
+</p>
+
 ---
 
 # Visão Geral
@@ -251,6 +255,11 @@ São registrados:
 * decisões;
 * utilização dos especialistas.
 
+
+<p align="center">
+    <img src="../media/architecture2.png">
+</p>
+
 Essa camada permite auditoria completa.
 
 ---
@@ -475,6 +484,6 @@ Essa arquitetura permite que o Sentinel evolua continuamente, incorporando novos
 
 ## Próximo capítulo
 
-➡ **05-multi-agent-system.md**
+➡ **05-multi-agent-intelligence.md**
 
 Conheceremos o coração do Sentinel: o ecossistema de especialistas inteligentes, sua organização, comunicação, responsabilidades e modelo de colaboração.

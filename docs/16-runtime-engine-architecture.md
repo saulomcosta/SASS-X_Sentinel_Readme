@@ -4,6 +4,10 @@
 
 > *O Runtime do SASS-X Sentinel representa o mecanismo operacional da plataforma. É responsável por transformar uma solicitação em conhecimento estruturado, coordenando especialistas digitais, consolidando evidências e produzindo recomendações rastreáveis.*
 
+<p align="center">
+    <img src="../media/architecture.png">
+</p>
+
 ---
 
 # Visão Geral
@@ -47,6 +51,10 @@ Request
 
 --> Knowledge Graph
 ```
+
+<p align="center">
+    <img src="../media/execution.png">
+</p>
 
 Cada etapa possui responsabilidades específicas e produz artefatos reutilizáveis.
 
@@ -385,6 +393,6 @@ Sua arquitetura combina planejamento, orquestração, especialização, validaç
 
 ## Próximo capítulo
 
-➡ **17-knowledge-graph.md**
+➡ **17-engineering-knowledge-graph.md**
 
 No próximo capítulo exploraremos o **Knowledge Graph**, a memória organizacional do Sentinel. Veremos como padrões, experiências, decisões arquiteturais e conhecimento técnico são organizados para permitir que a plataforma evolua continuamente e produza análises cada vez mais contextualizadas.
