@@ -1,9 +1,5 @@
 # 🤖 Agent Framework
 
-<p align="center">
-    <img src="../media/architecture2.png">
-</p>
-
 ## O framework de especialistas digitais do SASS-X Sentinel
 
 > *O Agent Framework é a base que permite ao SASS-X Sentinel evoluir continuamente. Ele define como especialistas digitais são criados, integrados, executados e aprimorados dentro da plataforma.*
