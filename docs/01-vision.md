@@ -421,3 +421,9 @@ Porque acreditamos que o maior ativo de uma organização não é seu código.
 É o conhecimento que existe por trás dele.
 
 ---
+
+## Próximo capítulo
+
+➡ **02-business-problem.md**
+
+**Como o SASS-X Sentinel resolve problemas reais enfrentados por empresas, equipes de engenharia e organizações que desenvolvem software em larga escala.**

@@ -278,3 +278,9 @@ Ao estruturar um modelo claro de colaboração, a plataforma busca incentivar a 
 Cada contribuição representa uma oportunidade de fortalecer não apenas o código, mas também o conhecimento compartilhado que impulsiona toda a Engenharia de Software Autônoma.
 
 ---
+
+## Próximo capítulo
+
+➡ **15-reference-architecture.md**
+
+No próximo capítulo apresentaremos a Arquitetura de Referência do SASS-X Sentinel, consolidando todos os conceitos apresentados anteriormente em uma visão unificada da plataforma, incluindo seus componentes, fluxos, domínios, integrações e princípios arquiteturais.

@@ -473,3 +473,8 @@ A missão da plataforma é preservar, organizar e ampliar esse conhecimento para
 
 ---
 
+## Próximo capítulo
+
+➡ **07-execution-lifecycle.md**
+
+No próximo capítulo conheceremos o ciclo completo de execução da plataforma, desde a chegada de uma solicitação até a entrega do relatório final, incluindo estados internos, checkpoints, filas, paralelismo, reprocessamento e recuperação de falhas.

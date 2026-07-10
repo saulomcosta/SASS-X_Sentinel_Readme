@@ -80,5 +80,5 @@ Todo achado segue este formato (obrigatório):
 
 ---
 
-**SASS-X Sentinel v4.0** — Production-Ready ✅
+**SASS-X Sentinel v1.0** — Production-Ready ✅
 

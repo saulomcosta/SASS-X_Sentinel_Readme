@@ -395,3 +395,9 @@ O maior desafio das organizações modernas não é produzir software.
 Uma plataforma que transforma dados técnicos dispersos em conhecimento estruturado, evidências confiáveis e decisões inteligentes.
 
 ---
+
+## Próximo capítulo
+
+➡ **03-how-it-works.md**
+
+No próximo capítulo conheceremos como o SASS-X Sentinel funciona internamente, desde o recebimento de uma solicitação até a geração de relatórios, recomendações e planos de evolução arquitetural.

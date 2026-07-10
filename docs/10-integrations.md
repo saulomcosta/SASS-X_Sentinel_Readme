@@ -309,3 +309,9 @@ Sua missão é conectar pessoas, processos e plataformas, transformando informa�
 Quanto mais integrado estiver ao ambiente corporativo, maior será sua capacidade de gerar análises contextualizadas e recomendações de alto valor.
 
 ---
+
+## Próximo capítulo
+
+➡ **11-specialists-catalog.md**
+
+No próximo capítulo conheceremos o Catálogo de Especialistas Digitais, organizado por domínios de engenharia, tecnologias e capacidades, mostrando como a plataforma pode evoluir continuamente com novos especialistas sem alterar sua arquitetura principal.

@@ -307,3 +307,8 @@ Independentemente do cenário escolhido, os princípios de especialização, col
 
 ---
 
+## Próximo capítulo
+
+➡ **13-platform-roadmap.md**
+
+No próximo capítulo conheceremos o roadmap estratégico da plataforma, apresentando a visão de evolução do SASS-X Sentinel, seus pilares tecnológicos, capacidades planejadas e a direção arquitetural para os próximos ciclos de desenvolvimento.

@@ -363,3 +363,9 @@ Mais do que listar especialistas, ele demonstra quais problemas a plataforma é 
 Essa visão permite que organizações compreendam rapidamente o alcance da plataforma e identifiquem como ela pode agregar valor aos seus processos de desenvolvimento.
 
 ---
+
+## Próximo capítulo
+
+➡ **12-deployment-models.md**
+
+No próximo capítulo conheceremos os modelos de implantação do SASS-X Sentinel, explorando cenários locais, corporativos, híbridos e em nuvem, além das estratégias de escalabilidade, isolamento e operação em ambientes enterprise.

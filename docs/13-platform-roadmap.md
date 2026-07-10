@@ -234,3 +234,9 @@ Seu crescimento será guiado por princípios arquiteturais, necessidades reais d
 Cada nova capacidade incorporada fortalecerá a missão central da plataforma: transformar conhecimento técnico em decisões de engenharia mais rápidas, mais seguras e mais inteligentes.
 
 ---
+
+## Próximo capítulo
+
+➡ **14-contributing.md**
+
+O próximo capítulo apresenta o modelo de contribuição da plataforma, explicando como novos especialistas, conectores, capacidades e melhorias podem ser desenvolvidos mantendo a consistência arquitetural do SASS-X Sentinel.
