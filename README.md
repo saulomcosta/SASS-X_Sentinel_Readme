@@ -401,16 +401,16 @@ A documentação foi organizada como uma visão completa do produto.
 | [03-how-it-works.md](docs/03-how-it-works.md)                             | Funcionamento               |
 | [04-architecture.md](docs/04-architecture.md)                             | Arquitetura                 |
 | [05-multi-agent-system.md](docs/05-multi-agent-system.md)                 | Sistema multiagente         |
-| [06-engineering-knowledge-flow.md](docs/06-engineering-knowledge-flow.md) | Fluxo de conhecimento       |
-| [07-execution-flow.md](docs/07-execution-flow.md)                         | Fluxo operacional           |
-| [08-security.md](docs/08-security.md)                                     | Segurança                   |
+| [06-data-flow.md](docs/06-data-flow.md)                                   | Fluxo de conhecimento       |
+| [07-execution-lifecycle.md](docs/07-execution-lifecycle.md)                         | Fluxo operacional           |
+| [08-platform-security-and-governance.md](docs/08-platform-security-and-governance.md)                                     | Segurança                   |
 | [09-observability.md](docs/09-observability.md)                           | Observabilidade             |
 | [10-integrations.md](docs/10-integrations.md)                             | Integrações                 |
-| [11-enterprise.md](docs/11-enterprise.md)                                 | Arquitetura enterprise      |
-| [12-use-cases.md](docs/12-use-cases.md)                                   | Casos de uso                |
-| [13-token-optimization.md](docs/13-token-optimization.md)                 | Eficiência de IA            |
-| [14-roadmap.md](docs/14-roadmap.md)                                       | Evolução futura             |
-| [15-faq.md](docs/15-faq.md)                                               | Perguntas frequentes        |
+| [11-specialists-catalog.md](docs/11-specialists-catalog.md)               | Arquitetura enterprise      |
+| [12-deployment-models.md](docs/12-deployment-models.md)                                   | Casos de uso                |
+| [13-platform-roadmap.md](docs/13-platform-roadmap.md)                 | Eficiência de IA            |
+| [14-contributing.md](docs/14-contributing.md)                                       | Evolução futura             |
+| [15-reference-architecture.md](docs/15-reference-architecture.md)                                               | Perguntas frequentes        |
 | [16-runtime-architecture.md](docs/16-runtime-architecture.md)             | Motor de execução           |
 | [17-knowledge-graph.md](docs/17-knowledge-graph.md)                       | Memória organizacional      |
 | [18-workspace.md](docs/18-workspace.md)                                   | Auditoria e rastreabilidade |
