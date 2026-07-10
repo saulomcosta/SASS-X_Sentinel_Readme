@@ -415,7 +415,11 @@ Aprendendo.
 
 Protegendo.
 
-E ajudando equipes humanas a tomar melhores decisões.
+<p align="center">
+    <img src="../media/fluxo.png">
+</p>
+
+E ajudando equipes humanas a tomar melhores decisões. Segura está!
 
 ---
 
@@ -452,6 +456,10 @@ O conhecimento precisa evoluir junto."*
 ---
 
 ## 👤 Autor & Engenharia
+
+<p align="center">
+    <img src="../media/SASS-X Sentinel.png">
+</p>
 
 <table align="center">
   <tr>
