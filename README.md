@@ -1025,25 +1025,25 @@ Cada documento aprofunda uma dimensão específica da plataforma.
 
 | Documento | O que você encontrará |
 |------------|----------------------|
-| **01-platform-vision.md** | A visão estratégica que originou o SASS-X Sentinel e o futuro da Engenharia de Software. |
-| **02-business-challenges.md** | Os desafios enfrentados pelas organizações modernas e como o Sentinel os resolve. |
-| **03-sentinel-operating-model.md** | O modelo operacional completo da plataforma, do início ao fim de uma análise. |
-| **04-platform-architecture.md** | A arquitetura lógica da solução e seus principais componentes. |
-| **05-multi-agent-intelligence.md** | Como dezenas de especialistas digitais colaboram para produzir inteligência. |
-| **06-engineering-knowledge-flow.md** | O fluxo de conhecimento entre especialistas, memória organizacional e aprendizado contínuo. |
-| **07-execution-lifecycle.md** | Todo o ciclo de vida de execução de uma solicitação dentro da plataforma. |
-| **08-security-governance.md** | Segurança corporativa, governança, compliance e princípios DevSecOps. |
-| **09-observability-intelligence.md** | Observabilidade inteligente aplicada à Engenharia de Software moderna. |
-| **10-ecosystem-integrations.md** | Integrações com GitHub, Azure DevOps, Kubernetes, Elastic, New Relic e demais plataformas. |
-| **11-enterprise-capabilities.md** | Capacidades Enterprise voltadas para organizações de grande porte. |
-| **12-business-use-cases.md** | Casos reais de utilização da plataforma em diferentes cenários corporativos. |
-| **13-ai-efficiency-strategy.md** | Estratégias de otimização de contexto, cache e eficiência na utilização de IA. |
-| **14-evolution-roadmap.md** | A visão de evolução da plataforma e seus próximos passos tecnológicos. |
-| **15-community-and-contribution.md** | Como participar, colaborar e contribuir para a evolução do projeto. |
-| **16-runtime-engine-architecture.md** | A arquitetura do motor de execução responsável pela orquestração dos especialistas. |
-| **17-engineering-knowledge-graph.md** | O modelo de memória organizacional baseado em grafos de conhecimento. |
-| **18-audit-workspace-model.md** | Estrutura de auditoria, rastreabilidade e organização dos artefatos gerados. |
-| **19-agent-framework.md** | O framework responsável pela criação, evolução e especialização dos agentes inteligentes. |
+| [01-platform-vision.md](docs/01-platform-vision.md) | A visão estratégica que originou o SASS-X Sentinel e o futuro da Engenharia de Software. |
+| [02-business-challenges.md](docs/02-business-challenges.md) | Os desafios enfrentados pelas organizações modernas e como o Sentinel os resolve. |
+| [03-sentinel-operating-model.md](docs/03-sentinel-operating-model.md) | O modelo operacional completo da plataforma, do início ao fim de uma análise. |
+| [04-platform-architecture.md](docs/04-platform-architecture.md) | A arquitetura lógica da solução e seus principais componentes. |
+| [05-multi-agent-intelligence.md](docs/05-multi-agent-intelligence.md) | Como dezenas de especialistas digitais colaboram para produzir inteligência. |
+| [06-engineering-knowledge-flow.md](docs/06-engineering-knowledge-flow.md) | O fluxo de conhecimento entre especialistas, memória organizacional e aprendizado contínuo. |
+| [07-execution-lifecycle.md](docs/07-execution-lifecycle.md) | Todo o ciclo de vida de execução de uma solicitação dentro da plataforma. |
+| [08-security-governance.md](docs/08-security-governance.md) | Segurança corporativa, governança, compliance e princípios DevSecOps. |
+| [09-observability-intelligence.md](docs/09-observability-intelligence.md) | Observabilidade inteligente aplicada à Engenharia de Software moderna. |
+| [10-ecosystem-integrations.md](docs/10-ecosystem-integrations.md) | Integrações com GitHub, Azure DevOps, Kubernetes, Elastic, New Relic e demais plataformas. |
+| [11-enterprise-capabilities.md](docs/11-enterprise-capabilities.md) | Capacidades Enterprise voltadas para organizações de grande porte. |
+| [12-business-use-cases.md](docs/12-business-use-cases.md) | Casos reais de utilização da plataforma em diferentes cenários corporativos. |
+| [13-ai-efficiency-strategy.md](docs/13-ai-efficiency-strategy.md) | Estratégias de otimização de contexto, cache e eficiência na utilização de IA. |
+| [14-evolution-roadmap.md](docs/14-evolution-roadmap.md) | A visão de evolução da plataforma e seus próximos passos tecnológicos. |
+| [15-community-and-contribution.md](docs/15-community-and-contribution.md) | Como participar, colaborar e contribuir para a evolução do projeto. |
+| [16-runtime-engine-architecture.md](docs/16-runtime-engine-architecture.md) | A arquitetura do motor de execução responsável pela orquestração dos especialistas. |
+| [17-engineering-knowledge-graph.md](docs/17-engineering-knowledge-graph.md) | O modelo de memória organizacional baseado em grafos de conhecimento. |
+| [18-audit-workspace-model.md](docs/18-audit-workspace-model.md) | Estrutura de auditoria, rastreabilidade e organização dos artefatos gerados. |
+| [19-agent-framework.md](docs/19-agent-framework.md) | O framework responsável pela criação, evolução e especialização dos agentes inteligentes. |
 
 ---
 
