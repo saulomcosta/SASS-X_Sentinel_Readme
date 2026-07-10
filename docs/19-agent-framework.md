@@ -454,7 +454,7 @@ O conhecimento precisa evoluir junto."*
 ## 👤 Autor & Engenharia
 
 <p align="center">
-    <img src="../media/sass_x_comico.png">
+    <img src="../media/sass_x_comico.jpg">
 </p>
 
 <table align="center">
